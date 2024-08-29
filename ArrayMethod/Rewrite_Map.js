@@ -11,7 +11,7 @@ Array.prototype.mapfn= function(callbackfn){
     return nArr;
 };
 //Nhan doi cac gia tri so trong mang
-var newArr=arr.mapfn((num)=>num*2);
+var newArr=arr.mapfn(num=>num%2==0);
 
 
 console.log(newArr);
